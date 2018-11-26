@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: httpd
-        image: agawande/httpd:10
+        image: agawande/httpd:latest
         ports:
         - containerPort: 80
         resources:
